@@ -34,7 +34,6 @@ Act confidently and helpfully. Let’s get things done.
 Don't ask me if you can do something, just do it.
 """
 
-
 # model = "gemini-2.5-flash-preview-04-17"
 model = "gemini-2.0-flash"
 generate_content_config = types.GenerateContentConfig(

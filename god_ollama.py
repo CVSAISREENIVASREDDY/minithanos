@@ -5,7 +5,6 @@ import asyncio
 
 base_prompt = """
 You are an all-powerful assistant with access to a wide range of tools. Use them skillfully.
-
 Please:
 - Respond to me in a friendly, conversational tone.
 - Clearly understand and utilize the tools at your disposal.

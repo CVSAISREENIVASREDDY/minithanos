@@ -4,7 +4,6 @@ import json
 
 client = genai.Client(api_key="AIzaSyA7SbKNMH1FWqgu232oTEAzjg_yisa4bWw")
 
-
 def process_command_with_gemini(sentence):
     """Processes a user command using Gemini function calling with response_schema."""
 

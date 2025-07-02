@@ -1,9 +1,6 @@
 import cv2
 import mediapipe as mp
 import pyautogui
-import numpy as np
-import math    
-import time     
 
 # --- Configuration ---
 WEBCAM_ID = 0  # Change if you have multiple webcams
@@ -47,7 +44,6 @@ try:
         results = hands.process(image_rgb)
 
         image_bgr = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2BGR)
-
         # --- Hand Landmark Processing ---
         if results.multi_hand_landmarks:
             # Iterate through detected hands (though max_num_hands is 1 here)
